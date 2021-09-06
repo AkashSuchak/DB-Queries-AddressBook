@@ -41,3 +41,14 @@ select Firstname, CIty, State
 	from AddressBookTable
 	where City = 'GUJ' 
 	OR State = 'TEL'
+
+--UC7
+select COUNT(FirstName) 
+	From AddressBookTable 
+	Where City = 'GUJ' 
+
+select COUNT(City) 
+	From AddressBookTable 
+select COUNT(State) 
+	From AddressBookTable 
+	
