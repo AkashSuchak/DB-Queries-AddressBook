@@ -35,3 +35,9 @@ update AddressBookTable
 --UC5
 delete from AddressBookTable 
 	where FirstName = 'NEEL'
+
+--UC6
+select Firstname, CIty, State 
+	from AddressBookTable
+	where City = 'GUJ' 
+	OR State = 'TEL'
