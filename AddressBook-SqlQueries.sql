@@ -51,4 +51,13 @@ select COUNT(City)
 	From AddressBookTable 
 select COUNT(State) 
 	From AddressBookTable 
-	
+
+--UC8
+select firstname,City
+	from AddressBookTable
+	order by firstname ASC
+
+select firstname,City
+	from AddressBookTable
+	order by city ASC
+
