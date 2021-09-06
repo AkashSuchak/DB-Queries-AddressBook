@@ -26,3 +26,8 @@ VALUES
 ('RAVI', 'R', 'DL', 'DL', 'DL', '580001', '1234567892', 'email2@exmple.com'),
 ('MANISH', 'M', 'RJ', 'RJ', 'RJ', '680001', '1234567893', 'email3@exmple.com'),
 ('SHAHBUDDIN', 'S', 'HYD', 'HYD', 'TEL', '780001', '1234567894', 'email4@exmple.com')
+
+--UC4
+update AddressBookTable 
+	set phonenumber = '9988776655' 
+	where FirstName = 'AKASH' 
