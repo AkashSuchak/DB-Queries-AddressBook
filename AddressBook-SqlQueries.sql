@@ -31,3 +31,7 @@ VALUES
 update AddressBookTable 
 	set phonenumber = '9988776655' 
 	where FirstName = 'AKASH' 
+
+--UC5
+delete from AddressBookTable 
+	where FirstName = 'NEEL'
