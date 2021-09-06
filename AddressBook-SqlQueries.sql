@@ -17,3 +17,12 @@ create table AddressBookTable
 	PhoneNumber varchar(10),
 	email varchar(30)	
 	)
+
+--UC3
+insert into AddressBookTable(FirstName,lastname,address,city, state,zipcode,phonenumber,email)
+VALUES
+('Akash', 'Suchak', 'GUJ', 'GUJ', 'GUJ', '380001', '1234567890', 'email@exmple.com'),
+('NEEL', 'Phatak', 'MH', 'MH', 'MH', '480001', '1234567891', 'email1@exmple.com'),
+('RAVI', 'R', 'DL', 'DL', 'DL', '580001', '1234567892', 'email2@exmple.com'),
+('MANISH', 'M', 'RJ', 'RJ', 'RJ', '680001', '1234567893', 'email3@exmple.com'),
+('SHAHBUDDIN', 'S', 'HYD', 'HYD', 'TEL', '780001', '1234567894', 'email4@exmple.com')
